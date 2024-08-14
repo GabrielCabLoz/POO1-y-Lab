@@ -4,6 +4,10 @@
 - Correo : Gabriel.c.l.05.01@hotmail.com
 
 - Actividad 1 
+ - p01HolaMundo
+ - Circulo_Area
+ - Area_triangulo
+ - pagaTrabajador
 
 - Actividad 2 
 
