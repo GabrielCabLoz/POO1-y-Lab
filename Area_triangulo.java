@@ -15,7 +15,7 @@ public class Area_triangulo{
         System.out.println(String.format("El triángulo tiene como base %d cm, de altura %d cm, por lo tanto su área es: %.2f cm²", b, a, Area));
         
 
-      
+
 
     }
 
