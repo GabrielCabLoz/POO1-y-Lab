@@ -5,7 +5,7 @@ public class Area_triangulo{
         int b;
         int a;
         Scanner t =new Scanner(System.in);
-        System.out.println("Bienvenido a la calculadora del triangulo ");
+        System.out.println("Calculando el area de un triangulo ");
         System.out.println("Ingresa la longitud en cm de la base");
         b=t.nextInt();
         System.out.println("Ingresa la longitud de la altura en cm  ");
