@@ -14,7 +14,7 @@ public class pagaTrabajador {
         paga=t.nextFloat();
         t.close();
         tasa=0.3;
-        
+
         pagaBruta=horas*paga;
         impuesto=pagaBruta*tasa;
         pagaNeta=pagaBruta-impuesto;
@@ -24,6 +24,7 @@ public class pagaTrabajador {
         System.out.println(String.format("Paga bruta=%.2f",pagaBruta));
         System.out.println(String.format("Impuestos=%.2f",impuesto));
         System.out.println(String.format("Paga neta=%.2f",pagaNeta));
+        
     }
 
     
