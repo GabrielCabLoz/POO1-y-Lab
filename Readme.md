@@ -7,7 +7,7 @@
  - p01HolaMundo
  - Circulo_Area
  - Area_triangulo
- - 
+ - pagaTrabajador
 
 - Actividad 2 
 
