@@ -1,4 +1,4 @@
-# programacion orientada a objetos
+# Programacion orientada a objetos
 
 - Nombre : Gabriel Cabrera Lozano
 - Correo : Gabriel.c.l.05.01@hotmail.com
@@ -10,7 +10,17 @@
  - pagaTrabajador
 
  # Actividad 2 
+ - OperacionesMatematicas
+ - PromedioCalificaciones
+ - OperadoresAsignacion
+ - FuncionesTrigonometricas
+ - DividirEnCifra
 
  # Actividad 3 
+
+
+
+
+ 
 
  # Actividad 4
