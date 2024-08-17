@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Area_triangulo{
+public class p03_Area_triangulo{
     
     public static void main (String[]args){
         int b;

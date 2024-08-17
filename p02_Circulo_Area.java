@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Circulo_Area {
+public class p02_Circulo_Area {
 
     public static void main(String []args){
 

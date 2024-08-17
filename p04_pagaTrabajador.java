@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class pagaTrabajador {
+public class p04_pagaTrabajador {
     public static void main(String[] args) {
         String nombre;
         int horas;

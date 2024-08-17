@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Dividir_en_cifras {
+public class p09_Dividir_en_cifras {
 
     public static void main(String[] args) {
         System.out.print("\033[H\033[2J"); System.out.flush();
