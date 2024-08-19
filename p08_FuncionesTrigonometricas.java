@@ -5,6 +5,7 @@ import java.util.Scanner;
     System.out.print("\033[H\033[2J"); System.out.flush();
     System.out.print("Dame un angulo en Grados: ");
     double angulog = new Scanner(System.in).nextDouble();
+    
 
     double angulor = Math.toRadians(angulog);
     double sen = Math.sin(angulor);

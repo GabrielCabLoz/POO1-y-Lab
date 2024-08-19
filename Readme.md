@@ -17,6 +17,13 @@
  - DividirEnCifra
 
  # Actividad 3 
+ - p10_HipotenusaTriangulo
+ - p11_CalcularAngulo
+ - p12_ConvertirTemperatura
+ - p13_VolumenCilindro
+ - 14_CalculoTiempo
+ - p15_ConvertirADolares
+
 
 
 
