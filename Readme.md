@@ -16,7 +16,7 @@
  - FuncionesTrigonometricas
  - DividirEnCifra
 
- # Actividad 3 
+ # Practica 1  
  - p10_HipotenusaTriangulo
  - p11_CalcularAngulo
  - p12_ConvertirTemperatura
@@ -24,14 +24,14 @@
  - 14_CalculoTiempo
  - p15_ConvertirADolares
 
- # Actividad 4
+ # Actividad 3
  - p16_TrabajandoEnteros
  - p17_TrabajandoFlotantes
  - p18_TrabajandoConstantes
  - p19_TrabajandoCaracteres
  - p20_ConversionTipos
 
-# Actividad 5 
+# Actividad 4
  - p21_VerificaNumero
  - p22_VerificaSuma 
  - p23_convertirTemperatura
