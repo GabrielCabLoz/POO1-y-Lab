@@ -24,8 +24,6 @@
  - 14_CalculoTiempo
  - p15_ConvertirADolares
 
-
-
  # Actividad 4
  - p16_TrabajandoEnteros
  - p17_TrabajandoFlotantes
@@ -34,3 +32,7 @@
  - p20_ConversionTipos
 
 # Actividad 5 
+ - p21_VerificaNumero
+ - p22_VerificaSuma 
+ - p23_convertirTemperatura
+ - p24_PagaTrabajadorv2
