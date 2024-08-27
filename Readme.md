@@ -49,6 +49,13 @@
  - p31_AceptarEstudiante
  - p32_leyDeNewton
 
+ # Pracitca 2 
+- p33_NumerosConsecutivos
+- p34_NumeroMayor
+- p35_ContinentesMundo
+- p36_CompraPizza
+- p37_CalculoNotas
+- p38_AceptarEstudianteV2
  
 
 
