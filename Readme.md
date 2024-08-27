@@ -43,3 +43,13 @@
  - p27_AceptarEstudiante
  - p28_leyDeNewton
 
+  # Actividad 6
+ - p29_EstacionesAño
+ - p30_TipoAngulo
+ - p31_AceptarEstudiante
+ - p32_leyDeNewton
+
+ 
+
+
+
