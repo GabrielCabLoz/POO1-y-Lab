@@ -18,6 +18,7 @@ public class po36_comprarPizza {
         op = t.nextLine();
         System.out.print("cuantas quieres ? ");
         pago=t.nextFloat(); 
+        t.close();
 
         switch (op) {
             case "C" :costo=5 ;break;
