@@ -17,21 +17,21 @@ public class p63_SumaTerminos1 {
 
         System.out.print("Salida: ");
         for (i = 1; i <= n; i++) {
-            // Calcular el término armónico
+           
             double term = 1.0 / i;
 
-            // Imprimir el término armónico
+            
             if (i == 1) {
                 System.out.print("1");
             } else {
                 System.out.print(" + 1/" + i);
             }
 
-            // Sumar el término armónico a la suma total
+            
             suma += term;
         }
 
-        // Imprimir la suma total
+        
         System.out.printf("\nSuma: %.12f\n", suma);
     }
 }
