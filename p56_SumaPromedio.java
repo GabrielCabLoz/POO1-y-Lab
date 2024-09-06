@@ -6,7 +6,7 @@ public class p56_SumaPromedio {
         Scanner t=new Scanner(System.in);
         float cal=0,sum=0,prom=0;
         int n;
-        boolean repit=true;
+        boolean repit=true;//con el bulean podemos podemos guardar mas de 1 caracter
 
        while (repit) {
 
@@ -20,16 +20,17 @@ public class p56_SumaPromedio {
         cal=t.nextFloat();
         sum+=cal;
         }
+    
 
         prom=sum/n;
         System.out.println("La suma es :"+sum);
         System.out.println("El promedio es : "+prom);
-        System.out.println("deseas repetir (s/n)");
+        System.out.println("deseas repetir (si/no)");
         String resp=t.next().toLowerCase();
-        repit=resp.equals("s");
+        repit=resp.equals("si");
        }
        System.out.println("Proceso terminado");
-        
+        t.close();
         
     }
     
