@@ -23,6 +23,7 @@ public class p54_ArribaAbajo {
             case 2:
              System.out.println("Imprimiendo de 1 a n");
              System.out.println("Desde donde ?"); int p=t.nextInt();
+             t.close();
              for(int i=p; i>=1; i--)System.out.println(i+" ");
                    
                 break;

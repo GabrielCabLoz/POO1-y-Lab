@@ -23,6 +23,7 @@ public class p37_CalculoNotas {
 
         System.out.println("Dame la quinta calificacion");
         calf5=t.nextInt();
+        t.close();
 
         prom=(calf1+calf2+calf3+calf4+calf5)/5;
 

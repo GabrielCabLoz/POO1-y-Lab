@@ -12,6 +12,7 @@ public class p40_Numeros100a1 {
         System.out.println("Desde donde quieres deseas desender");
         num=t.nextInt();
         System.out.println("De cuanto quieres que decremente");
+        t.close();
 
 
 

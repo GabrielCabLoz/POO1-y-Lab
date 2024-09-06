@@ -3,11 +3,12 @@ public class p24_PagaTrabajadorv2 {
 public static void main(String[] args) {
 int horas, extra;
 float paga, total;
-Scanner obj = new Scanner(System.in);
+Scanner t = new Scanner(System.in);
 System.out.print("\033[H\033[2J"); System.out.flush();
 System.out.println("Calculando la paga de un trabajador \n");
-System.out.print("Dame las horas ? "); horas = obj.nextInt();
-System.out.print("Dame la paga ? "); paga = obj.nextFloat();
+System.out.print("Dame las horas ? "); horas = t.nextInt();
+System.out.print("Dame la paga ? "); paga = t.nextFloat();
+t.close();
 if( horas > 40 ) {
 extra = horas - 40;
 total = (40*paga) + (extra * paga * 2);

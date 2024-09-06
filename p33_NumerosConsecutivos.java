@@ -17,6 +17,7 @@ public class p33_NumerosConsecutivos  {
         num2=t.nextInt();
         System.out.println("Dame el tercer numero");
         num3=t.nextInt();
+        t.close();
 
         if(num1<num2&&num1<num3){System.out.println("Los numeros  "+num1+" "+num2+" "+num3+"  "+"Son Consecutivos");
         

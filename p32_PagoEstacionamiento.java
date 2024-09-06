@@ -19,7 +19,8 @@ public class p32_PagoEstacionamiento {
         System.out.println("Elige una de las opciones cabro");
         op = t.nextLine();
         System.out.print("cuanto pagaste ? ");
-        pago=t.nextFloat(); 
+        pago=t.nextFloat();
+        t.close();
 
         switch (op) {
             case "N" : tasa = 0.03f;break;
