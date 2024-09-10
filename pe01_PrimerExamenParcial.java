@@ -26,9 +26,9 @@ public class pe01_PrimerExamenParcial {
             contMujeres++;
          }
 
-         if(edad>=23){System.out.println("Bienvenido "+nombre+" Tienes "+edad+" Años "+"y eres "+sexo);
+        {if(edad>=23){System.out.println("Bienvenido "+nombre+" Tienes "+edad+" Años "+"y eres "+sexo);
         } else if(edad<23) System.out.println("Solo se aceptan alumnos con una edad de 23 en adelante ");
-         contRechazados++;
+         contRechazados++;}
         
 
          System.out.println("Ingresa tu tipo de usuario (a)lumno,(d)ocente,(T)rabajador)");
@@ -70,9 +70,9 @@ public class pe01_PrimerExamenParcial {
         System.out.println("Total de alumnos "+contAlumno);
         System.out.println("Total de docentes "+contDocente);
         System.out.println("Total de trabajadores "+contTrabajador);
-        System.out.println("Total hombres"+contHombres);
-        System.out.println("Total Mujeres"+contMujeres);
-        System.out.println("Total participantes"+((contRechazados+alumo)+trabajador)+docente);
+        System.out.println("Total hombres "+contHombres);
+        System.out.println("Total Mujeres "+contMujeres);
+        System.out.println("Total participantes "+((contRechazados+alumo)+trabajador)+docente);
         System.out.println("Promedio");
         System.out.println("Total rechazados "+contRechazados);
         System.out.println("Total dinero alumnos :"+totalDineroAlumnos);
