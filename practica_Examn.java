@@ -56,6 +56,10 @@ public class practica_Examn {
 
         System.out.println(" ");
         System.out.println("--------------------------------");
+        System.out.println("Papeleria Lozano,SA.de CV.");
+        System.out.println("Sistema de ventas de copias ");
+        System.out.println("--------------------------------");
+        System.out.println(" ");
         System.out.println("Resumen diario de ventas");
         System.out.println("--------------------------------");
 
