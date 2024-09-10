@@ -13,7 +13,7 @@ public class pe01_PrimerExamenParcial {
         
       do{
          System.out.println("Ingresa tu nombre");
-         nombre=t.nextLine();
+         nombre=t.next();
          System.out.println("Ingresa tu edad");
          edad=t.nextInt();
          System.out.println("Ingresa tu sexo (H) o (M)");
