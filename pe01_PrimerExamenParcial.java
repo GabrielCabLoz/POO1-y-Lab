@@ -68,13 +68,13 @@ public class pe01_PrimerExamenParcial {
         System.out.println("Resumen de alumnos inscritos");
         System.out.println("--------------------------------");
         System.out.println("Total de alumnos "+contAlumno);
-        System.out.println("Total de docentes ");
-        System.out.println("Total de trabajadores ");
-        System.out.println("Total hombres");
-        System.out.println("Total Mujeres");
+        System.out.println("Total de docentes "+contDocente);
+        System.out.println("Total de trabajadores "+contTrabajador);
+        System.out.println("Total hombres"+contHombres);
+        System.out.println("Total Mujeres"+contMujeres);
         System.out.println("Total participantes"+((contRechazados+alumo)+trabajador)+docente);
         System.out.println("Promedio");
-        System.out.println("Total rechazados"+contRechazados);
+        System.out.println("Total rechazados "+contRechazados);
         System.out.println("Total dinero alumnos :"+totalDineroAlumnos);
         System.out.println("Total dinero docentes :"+TotalDineroDocentes);
         System.out.println("Total dinero trabajadores :"+TotalDineroTrabajadores);
