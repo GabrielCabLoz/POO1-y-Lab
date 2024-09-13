@@ -4,7 +4,7 @@ public class pe01_PrimerExamenParcial {
     public static void main(String[] args) {
 
         String nombre;
-        int edad,contRechazados=0,alumo=0,docente=0,trabajador=0,contAlumno=0,contDocente=0,contTrabajador=0,contHombres=0,contMujeres=0,totalDineroAlumnos=0,TotalDineroDocentes=0,TotalDineroTrabajadores=0,totalHyM=0,TotalDinero=0;
+        int promedio,contEdad=0,edad=0,contRechazados=0,alumo=0,docente=0,trabajador=0,contAlumno=0,contDocente=0,contTrabajador=0,contHombres=0,contMujeres=0,totalDineroAlumnos=0,TotalDineroDocentes=0,TotalDineroTrabajadores=0,totalHyM=0,TotalDinero=0;
         char tipo,sexo,continuar;
         Scanner t =new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class pe01_PrimerExamenParcial {
          System.out.println("Ingresa tu nombre");
          nombre=t.next();
          System.out.println("Ingresa tu edad");
-         edad=t.nextInt();
+         edad+=t.nextInt();
          System.out.println("Ingresa tu sexo (H) o (M)");
          sexo=t.next().charAt(0);
          
@@ -26,9 +26,11 @@ public class pe01_PrimerExamenParcial {
             contMujeres++;
          }
 
-        {if(edad>=23){System.out.println("Bienvenido "+nombre+" Tienes "+edad+" Años "+"y eres "+sexo);
-        } else if(edad<23) System.out.println("Solo se aceptan alumnos con una edad de 23 en adelante ");
-         contRechazados++;}
+        if(edad>=23){System.out.println("Bienvenido "+nombre+" Tienes "+edad+" Años "+"y eres "+sexo);
+        } else {System.out.println("Solo se aceptan alumnos con una edad de 23 en adelante ");
+         contRechazados++;
+        } 
+        contEdad++;
         
 
          System.out.println("Ingresa tu tipo de usuario (a)lumno,(d)ocente,(T)rabajador)");
@@ -58,7 +60,7 @@ public class pe01_PrimerExamenParcial {
 
         totalHyM=contHombres+contMujeres;
         TotalDinero=(totalDineroAlumnos+TotalDineroTrabajadores)+TotalDineroDocentes;
-
+        promedio=edad/contEdad;
         System.out.println(" ");
         System.out.println("--------------------------------");
         System.out.println("Universidad Autonoma de Zacatecas");
@@ -72,8 +74,9 @@ public class pe01_PrimerExamenParcial {
         System.out.println("Total de trabajadores "+contTrabajador);
         System.out.println("Total hombres "+contHombres);
         System.out.println("Total Mujeres "+contMujeres);
-        System.out.println("Total participantes "+((contRechazados+alumo)+trabajador)+docente);
-        System.out.println("Promedio");
+        System.out.println("Total participantes " + (contAlumno + contDocente + contTrabajador));
+
+        System.out.println("Promedio: "+promedio);
         System.out.println("Total rechazados "+contRechazados);
         System.out.println("Total dinero alumnos :"+totalDineroAlumnos);
         System.out.println("Total dinero docentes :"+TotalDineroDocentes);
