@@ -75,7 +75,6 @@ public class pe01_PrimerExamenParcial {
         System.out.println("Total hombres "+contHombres);
         System.out.println("Total Mujeres "+contMujeres);
         System.out.println("Total participantes " + (contAlumno + contDocente + contTrabajador));
-
         System.out.println("Promedio: "+promedio);
         System.out.println("Total rechazados "+contRechazados);
         System.out.println("Total dinero alumnos :"+totalDineroAlumnos);
