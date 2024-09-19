@@ -8,8 +8,8 @@ public class pe01_PrimerExamenParcial {
         char tipo,sexo,continuar;
         Scanner t =new Scanner(System.in);
 
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+        System.out.print("\033[H\033[2J");System.out.flush();
+        
         
       do{
          System.out.println("Ingresa tu nombre");
