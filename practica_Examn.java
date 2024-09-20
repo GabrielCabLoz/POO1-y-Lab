@@ -88,6 +88,5 @@ public class practica_Examn {
         System.out.println("Venta superada somos ricos ");
         
 
-        
     }
 }
