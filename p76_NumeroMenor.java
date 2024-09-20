@@ -13,7 +13,6 @@ public class p76_NumeroMenor {
         else if(num4>num1&&num4>num2&&num4>num3)mayor=num4;
         return mayor;
     }
-
     public static void main(String[] args) {
 
         System.out.print("\033[H\033[2J");System.out.flush();

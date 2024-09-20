@@ -33,7 +33,6 @@ public class p77_DiaSemana {
         }
         return dia;
     }
-
     public static void main(String[] args) {
         
         System.out.print("\033[H\033[2J");System.out.flush();
