@@ -19,7 +19,6 @@ public class p90_Temperaturas {
             }
         }
 
-        
         System.out.println("Elementos del arreglo después de poner a 0 los mayores a 10:");
         for (float temp : temperaturas) {
             System.out.print(temp + " ");

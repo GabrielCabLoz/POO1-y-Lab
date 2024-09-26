@@ -5,7 +5,6 @@ public class p93_ParesImpares {
     public static void main(String[] args) {
         Scanner t= new Scanner(System.in);
         Random rand = new Random();
-
         
         System.out.print("¿Cuántos elementos deseas en los arreglos? ");
         int n = t.nextInt();

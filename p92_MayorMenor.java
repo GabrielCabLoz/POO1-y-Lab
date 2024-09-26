@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class p92_MayorMenor {
     public static void main(String[] args) {
         Scanner t = new Scanner(System.in);
-
+        
         System.out.print("¿Cuántos números deseas capturar? ");
         int n = t.nextInt();
         int[] numeros = new int[n];
