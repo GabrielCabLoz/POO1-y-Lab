@@ -18,7 +18,6 @@ public class p93_ParesImpares {
             System.out.print(a[i] + " ");
         }
         System.out.println();
-
         int countPares = 0;
         System.out.println("Elementos pares del arreglo a[]:");
         for (int i = 0; i < n; i++) {

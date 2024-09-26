@@ -13,7 +13,6 @@ public class p92_MayorMenor {
             numeros[i] = t.nextInt();
             t.close();
         }
-
         System.out.println("Números capturados:");
         for (int numero : numeros) {
             System.out.print(numero + " ");
