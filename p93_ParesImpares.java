@@ -37,6 +37,7 @@ public class p93_ParesImpares {
                 countImpares++;
             }
         }
+       
         System.out.println("\nCantidad de números impares: " + countImpares);
     }
 }

@@ -18,6 +18,7 @@ public class p91_MayoresPromedio {
         for (float calificacion : calificaciones) {
             System.out.print(calificacion + " ");
         }
+        
         System.out.println();
         t.close();
 

@@ -32,7 +32,6 @@ public class p92_MayorMenor {
                 menor = numeros[i];
             }
         }
-
         System.out.println("El número mayor es: " + mayor);
         System.out.println("El número menor es: " + menor);
     }
