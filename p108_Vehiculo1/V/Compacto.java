@@ -1,4 +1,4 @@
-package p108_Vehiculo.V;
+package p108_Vehiculo1.V;
 
 public class Compacto extends Vehiculo{
 
