@@ -5,6 +5,7 @@ public class Persona_Main {
     public static void main(String[] args) {
         
         System.out.print("\033[H\033[2J"); System.out.flush();
+        
         Persona p1 = new Persona("Juan Perez", "Av Mexico 114");
         Persona p2 = new Persona("Alma Gonzalez","Primera de los Bolos 234l");
         Estudiante estudiante = new Estudiante(p1, "Sistemas", 2018, 1200);

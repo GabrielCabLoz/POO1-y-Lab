@@ -1,6 +1,6 @@
 package p106_Persona;
 
-//Nota con extends puedes traer atributos de otra clase 
+
 
 public class Estudiante extends Persona{
 
