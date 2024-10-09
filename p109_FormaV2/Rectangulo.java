@@ -35,7 +35,6 @@ class Rectangulo extends Forma {
         this.ancho = ancho;
     }
 
-    // Sobrescribir métodos getArea y getPerimetro
     @Override
     public double getArea() {
         return largo * ancho;
