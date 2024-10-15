@@ -62,7 +62,7 @@ public class Tienda {
     public void reporte(){
         for (Cliente cliente : Clientes) {
             System.out.println(" ");
-            System.out.println("> " + cliente);
+            System.out.println(">> " + cliente);
             for (Venta venta : cliente.getVentas()) {
                 System.out.println(venta);
             }
