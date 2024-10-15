@@ -38,4 +38,5 @@ public class VentaContado extends Venta {
         return "VentaContado [" + super.toString() + " Descuento=" + Descuento+"%" + ", Regalo=" + Regalo + ", Total= " + getTotalVenta() + "]";
     }
 
+    
 }

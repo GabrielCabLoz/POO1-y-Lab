@@ -38,4 +38,5 @@ public class VentaCredito extends Venta {
         return "VentaCredito [" + super.toString() + " Meses=" + Meses + ", Intereses=" + Intereses + "%, TotalVenta= " + getTotalVenta() +"]";
     }
 
+    
 }

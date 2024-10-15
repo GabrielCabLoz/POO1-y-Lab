@@ -40,9 +40,5 @@ public class ventas_main {
 
 
     }
-
-   
-    
-    
     
 }

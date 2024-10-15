@@ -74,4 +74,5 @@ public class Tienda {
         return "Tienda [Nombre= " + Nombre + ", Propietario= " + Propietario + ", Domicilio= " + Domicilio + ", clientes= " + Clientes.size() + ", Total= " + getTotal() + "]";
     }
 
+    
 }

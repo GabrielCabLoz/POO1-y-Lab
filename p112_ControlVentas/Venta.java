@@ -53,4 +53,5 @@ public abstract class Venta {
         return "Venta [Articulo=" + Articulo + ", Cantidad=" + Cantidad + ", Precio=" + Precio + ", Total=" + Total + "]";
     }
 
+    
 }
