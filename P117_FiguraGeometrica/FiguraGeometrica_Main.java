@@ -1,4 +1,4 @@
-package P117_FiguraGeometrica;
+package p117_FiguraGeometrica;
 
 public class FiguraGeometrica_Main {
 
@@ -21,6 +21,6 @@ public class FiguraGeometrica_Main {
         figura2.ajustar(0.5);
         System.out.println(figura2);
     }
-    
+
     
 }

@@ -1,10 +1,10 @@
-package P117_FiguraGeometrica;
+package p117_FiguraGeometrica;
 
 public interface FiguraGeometrica {
     
     public double getArea();
     public double getPerimetro();
     
-    
+
     
 }

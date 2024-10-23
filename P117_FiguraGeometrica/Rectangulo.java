@@ -1,4 +1,4 @@
-package P117_FiguraGeometrica;
+package p117_FiguraGeometrica;
 
 public class Rectangulo implements FiguraGeometrica,Ajustable{
     private double Largo;
@@ -27,5 +27,5 @@ public class Rectangulo implements FiguraGeometrica,Ajustable{
     String.format("%.2f",getArea()) + ", Perimetro= " +
     String.format("%.2f",getPerimetro()) + "]";
     }
-    
+
 }

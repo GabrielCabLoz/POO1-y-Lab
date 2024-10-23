@@ -1,4 +1,4 @@
-package P117_FiguraGeometrica;
+package p117_FiguraGeometrica;
 
 public interface Ajustable {
 
