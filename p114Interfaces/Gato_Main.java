@@ -1,4 +1,4 @@
-package p_114Interfaces;
+package p114Interfaces;
 
 public class Gato_Main {
 
@@ -7,6 +7,6 @@ public class Gato_Main {
         miGato.sonido();
         miGato.dormir();
     }
-    
+
     
 }
