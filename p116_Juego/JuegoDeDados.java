@@ -33,4 +33,5 @@ public class JuegoDeDados implements Juego{
         else System.out.println("Empataron los jugadores con numero "+dado1);
 
     }
+    
 }

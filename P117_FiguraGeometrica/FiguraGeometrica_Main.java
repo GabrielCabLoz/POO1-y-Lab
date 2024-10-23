@@ -22,4 +22,5 @@ public class FiguraGeometrica_Main {
         System.out.println(figura2);
     }
     
+    
 }

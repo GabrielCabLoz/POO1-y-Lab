@@ -7,6 +7,7 @@ public class app {
         System.out.print("\033[H\033[2J");System.out.flush();
 
         Equipo miequipo = new Equipo("Limones", "Torneo la Bombonera");
+        System.out.println(miequipo.getTotalH());
         miequipo.reporte();
         miequipo.agregarJugador(new JugadorEntrenador("Francisco Zapeda", 'H', "Entrenador Principal", 1000, 8,1,3));
         miequipo.agregarJugador(new JugadorEntrenador("Alexis Estrada", 'H', "Entrenador de Apoyo", 900, 10,2,5));

@@ -24,5 +24,6 @@ package P117_FiguraGeometrica;
  return "Circulo [Radio=" + Radio + ", Area = "+ String.format("%.2f",getArea()) + "Perimetro="+String.format("%.2f",getPerimetro()) + "]";
 
  }
+ 
 
 }

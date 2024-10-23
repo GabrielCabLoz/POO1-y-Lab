@@ -99,9 +99,11 @@ public class Equipo {
 
     @Override
     public String toString() {
-        return "Equipo [Nombre=" + Nombre + ", Liga=" + Liga + ", jugadores=" + jugadores + "]";
+        return "Equipo [Nombre=" + Nombre + ", Liga=" + Liga + ", jugadores=" + jugadores + ", getTotalH()="
+                + getTotalH() + ", getTotalM()=" + getTotalM() + "]";
     }
 
+    
     
 
     

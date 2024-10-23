@@ -27,19 +27,19 @@ public class JugadorActivo extends Jugador {
         Goles = goles;
     }
 
-    @Override
-    public String toString() {  
-        return "JugadorActivo [Nombre=" + Nombre + ", Partidos=" + Partidos + ", Goles=" + Goles + ", Sexo=" + Sexo
-                + ", Descripcion=" + Descripcion + ", Salario=" + Salario +  "]";
-    }
-
 
     @Override
     public double getBono() {
-        return getBono();
+        double bono = (Salario * 0.15) + (Partidos * 50)+ (Goles * 5);
+        
+        return bono;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "JugadorActivo [Partidos=" + Partidos + ", Goles=" + Goles + ", toString()=" + super.toString() + "]";
+    }
+    
+    
     
 }

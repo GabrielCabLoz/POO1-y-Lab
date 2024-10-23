@@ -16,4 +16,6 @@ public class Juego_Main {
         juego2.DetenerJuego();
     }
     
+
+    
 }

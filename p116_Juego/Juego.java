@@ -6,4 +6,5 @@ public interface Juego {
     public void Jugar();
     public void DetenerJuego();
     
+    
 }

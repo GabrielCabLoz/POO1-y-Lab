@@ -5,4 +5,5 @@ public interface Gps {
     public void obtenerCordenadas();
 
     
+    
 }

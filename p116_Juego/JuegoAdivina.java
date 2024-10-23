@@ -33,5 +33,6 @@ public class JuegoAdivina implements Juego {
      System.out.println(this.num + " era el número , ganaste el juego luego de " + intentos + " intentos");
     
     }
+    
 
 }

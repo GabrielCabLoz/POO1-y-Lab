@@ -27,4 +27,5 @@ public class Rectangulo implements FiguraGeometrica,Ajustable{
     String.format("%.2f",getArea()) + ", Perimetro= " +
     String.format("%.2f",getPerimetro()) + "]";
     }
+    
 }

@@ -17,6 +17,7 @@ public class Telefono implements Radio,Gps{
         System.out.println("Deteniendo radio....");
         System.out.println("Radio detenida");
 
+        
     }
 
 

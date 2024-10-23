@@ -6,4 +6,5 @@ public interface FiguraGeometrica {
     public double getPerimetro();
     
     
+    
 }
