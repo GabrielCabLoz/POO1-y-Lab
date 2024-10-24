@@ -27,7 +27,6 @@ public class Maquina {
         System.out.println("Frenando...");
         
     }
-
-    
+ 
     
 }

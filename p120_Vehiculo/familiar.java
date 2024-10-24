@@ -6,7 +6,5 @@ public interface familiar extends vehiculo {
     public void chasisMonocasco();
 
 
-    
 
-    
 }
