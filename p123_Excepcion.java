@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class p123_Excepcion3 {
+public class p123_Excepcion {
  public static void main(String[] args) {
  Scanner obj = new Scanner(System.in);
  try {

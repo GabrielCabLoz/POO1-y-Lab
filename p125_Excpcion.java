@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class p125_Excpcion5 {
+public class p125_Excpcion {
 public static void main(String[] args) {
  int a[] = {10,20,30,40};
  try {

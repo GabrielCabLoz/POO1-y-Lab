@@ -1,6 +1,6 @@
 import java.io.File;
 import java.util.Scanner;
-public class p126_Excepcion6 {
+public class p126_Excepcion {
 public static void main(String[] args) {
  File nombres = new File("nombres.txt");
  try {

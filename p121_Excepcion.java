@@ -1,4 +1,4 @@
-public class p121_Excepcion1 {
+public class p121_Excepcion {
     public static void main(String[] args) {
      int a = 100;
      int b = 0;

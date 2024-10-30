@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p122_Excepcion2 {
+public class p122_Excepcion {
  public static void main(String[] args) {
  try {
   System.out.print("Dame un valor : ");
