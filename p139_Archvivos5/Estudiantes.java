@@ -35,4 +35,5 @@ class Estudiante implements Serializable {
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Promedio: " + promedio + ", Sexo: " + sexo;
     }
+    
 }
