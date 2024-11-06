@@ -2,11 +2,11 @@ import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class P140_HolamundoGrafico extends JFrame {
+public class p140_HolamundoGrafico extends JFrame {
 
     private JLabel lblsaludo;
     
-    public P140_HolamundoGrafico(){
+    public p140_HolamundoGrafico(){
 
         setLayout(null);
         lblsaludo=new JLabel("Hola mundo Cruel "); //Texto en la ventana 
@@ -17,7 +17,7 @@ public class P140_HolamundoGrafico extends JFrame {
     }
 
     public static void main(String[] args) {
-        P140_HolamundoGrafico Main=new P140_HolamundoGrafico();
+        p140_HolamundoGrafico Main=new p140_HolamundoGrafico();
         Main.setBounds(20,20,800,300);
         Main.setLocationRelativeTo(null);
         Main.setLocale(null);

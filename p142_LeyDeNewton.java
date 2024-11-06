@@ -104,5 +104,6 @@ public class p142_LeyDeNewton extends JFrame implements ActionListener, ChangeLi
         app.setLocationRelativeTo(null);
         app.setVisible(true);
         app.setDefaultCloseOperation(EXIT_ON_CLOSE);
-    }
+    }  
+    
 }
