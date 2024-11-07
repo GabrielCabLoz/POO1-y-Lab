@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class p134_Archivo3 {
+public class p134_Archivo {
 
     public static void main(String[] args) {
         String archivo = "materias.txt"; 

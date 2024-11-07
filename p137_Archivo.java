@@ -1,40 +1,39 @@
+
+
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class p138_Archivo3 {
+public class p137_Archivo {
 
     public static void main(String[] args) {
 
         System.out.print("\033[H\033[2J");System.out.flush();
         
-        String archivo = "materias.txt"; 
-        Scanner scanner = new Scanner(System.in);
-        ArrayList<String> materias = new ArrayList<>();
+        String archivo = "deportes.txt";
+        ArrayList<String> deportes = new ArrayList<>(); 
 
-      
-        File file = new File(archivo);
-        if (file.exists()) {
-            System.out.println("El archivo '" + archivo + "' ya existe.");
-        }
-
-       
-        System.out.println("Ingrese las materias (una por línea, deje una línea en blanco para terminar):");
-        String materia;
-        while (!(materia = scanner.nextLine()).isEmpty()) {
-            materias.add(materia);
-        }
+        deportes.add("Fútbol");
+        deportes.add("Béisbol");
+        deportes.add("Ciclismo");
+        deportes.add("Atletismo");
+        deportes.add("Natación");
+        deportes.add("Motociclismo");
 
         try {
-            
-            grabarDatos(archivo, materias);
-            System.out.println("Materias grabadas en el archivo " + archivo + " correctamente.");
+           
+            File file = new File(archivo);
+            if (file.exists()) {
+                System.out.println("El archivo " + archivo + " ya existe.");
+            } else {
+                grabarDatos(archivo, deportes);
+                System.out.println("Datos grabados en el archivo " + archivo + " correctamente.");
+            }
 
             
-            ArrayList<String> materiasLeidas = leerDatos(archivo);
-            System.out.println("\nMaterias leídas del archivo:");
-            for (String materiaLeida : materiasLeidas) {
-                System.out.println(materiaLeida);
+            ArrayList<String> datosLeidos = leerDatos(archivo);
+            System.out.println("\nDatos leídos del archivo:");
+            for (String deporte : datosLeidos) {
+                System.out.println(deporte);
             }
         } catch (IOException e) {
             System.err.println("Error al procesar el archivo: " + e.getMessage());
@@ -60,5 +59,4 @@ public class p138_Archivo3 {
         return datos;
     }
     
-
 }
