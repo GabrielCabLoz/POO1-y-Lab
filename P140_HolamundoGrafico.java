@@ -25,7 +25,6 @@ public class p140_HolamundoGrafico extends JFrame {
         Main.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
         
-
     
     
 }
