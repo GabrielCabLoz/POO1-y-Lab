@@ -26,5 +26,4 @@ public class p140_HolamundoGrafico extends JFrame {
     }
         
     
-    
 }
