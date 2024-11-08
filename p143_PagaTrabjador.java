@@ -3,7 +3,7 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-public class _p143_PagaTrabjador extends JFrame implements ActionListener{
+public class p143_PagaTrabjador extends JFrame implements ActionListener{
     private JLabel Nombre;
     private JLabel Resultado;
     private JLabel componentes;
@@ -13,7 +13,7 @@ public class _p143_PagaTrabjador extends JFrame implements ActionListener{
     private JTextField txtnombre,txthoras,txtpaga;
     
 
-    public _p143_PagaTrabjador(){
+    public p143_PagaTrabjador(){
         super("Calcular la paga de un empleado");
         setLayout(null);
 
@@ -94,7 +94,7 @@ public class _p143_PagaTrabjador extends JFrame implements ActionListener{
 
 
     public static void main(String[] args) {
-        _p143_PagaTrabjador app = new _p143_PagaTrabjador();
+        p143_PagaTrabjador app = new p143_PagaTrabjador();
         app.setBounds(10, 10, 700, 400);
         app.setLocationRelativeTo(null);
         app.setVisible(true);
