@@ -17,6 +17,7 @@ public class Estudiante implements Serializable {
         Peso = peso;
         Correo = correo;
     }
+    
 
     public String getNombre() {
         return Nombre;

@@ -112,6 +112,7 @@ public App(){
     add(pnlBotones);
     }
 
+    
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == smnSalir) {
             dispose();

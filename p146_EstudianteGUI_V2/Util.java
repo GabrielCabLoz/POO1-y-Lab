@@ -11,6 +11,7 @@ public class Util {
         datos.add(new Estudiante("Carlos Fuentes", 30, 22.5, "cfuentes@msn.com"));
         return datos;
     }
+    
 
     public static void serializarDatos(String archivo, ArrayList<Estudiante> datos) throws IOException {
         FileOutputStream arch = new FileOutputStream(archivo);
